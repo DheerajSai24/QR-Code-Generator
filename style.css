@@ -107,7 +107,13 @@ select {
     .container {
         width: 80%;
     }
+
     .qrFooter a {
         padding: 10px;
+    }
+
+    #qrBody {
+        max-width: 70%;
+        max-height: 70%;
     }
 }
