@@ -112,6 +112,7 @@ select {
         padding: 10px;
     }
 
+    #sizes option[value="300"],
     #sizes option[value="400"],
     #sizes option[value="500"],
     #sizes option[value="600"],
