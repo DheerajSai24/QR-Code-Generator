@@ -112,8 +112,15 @@ select {
         padding: 10px;
     }
 
-    #qrBody {
-        max-width: 70%;
-        max-height: 70%;
+    #sizes option[value="400"],
+    #sizes option[value="500"],
+    #sizes option[value="600"],
+    #sizes option[value="700"],
+    #sizes option[value="800"],
+    #sizes option[value="900"],
+    #sizes option[value="1000"] {
+        display: none;
     }
+
+
 }
