@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://th.bing.com/th/id/OIP.VqbW8dMOrdvxgQsxZUGgUAHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        type="png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="qrHeader">
+            <h2>Genrate QR Code</h2>
+            <input type="text" id="qrText" placeholder="Type your Text or URL">
+            <div class="sizes">
+                <label for="sizes">Select Size :</label>
+                <select id="sizes">
+                    <option value="100">100x100</option>
+                    <option value="200">200x200</option>
+                    <option value="300">300x300</option>
+                    <option value="400">400x400</option>
+                    <option value="500">500x500</option>
+                    <option value="600">600x600</option>
+                    <option value="700">700x700</option>
+                    <option value="800">800x800</option>
+                    <option value="900">900x900</option>
+                    <option value="1000">1000x1000</option>
+                </select>
+            </div>
+        </div>
+        <div id="qrBody"></div>
+        <div class="qrFooter">
+            <a href="" id="GenerateBtn">Generate</a>
+            <a href="" id="DowloadBtn" download="QR_Code.jpeg">Download</a>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+
+</html>
